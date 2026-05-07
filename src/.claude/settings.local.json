@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(dotnet build *)",
+      "Bash(dotnet list *)",
+      "Bash(dotnet package *)",
+      "Bash(dotnet outdated *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ],
+    "ask": [
+      "Bash(rm:*)"
+    ]
+  },
+  "model": "haiku"
+}
